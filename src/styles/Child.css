@@ -4,13 +4,16 @@
     margin: 20px;
     border: 1px white dotted;
     border-radius: 5px;
+    cursor:pointer;
+    text-align: center;
+    color: white;
 }
 
-#master{
+/* #master{
     border-radius: 5px;
     border: 2px white ridge;
     width: 100%;
-}
+} */
 
 .subheading{
     color: white;
