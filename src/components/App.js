@@ -42,7 +42,7 @@ const App = () => {
       <div className='row' id="children-wrapper">
         {
           ["selection1", "selection2", "selection3"].map(key => (
-            <Selection key={key} boxkey={key} nextBackground={nextBackground} />
+            <Selection key={key} array={colourConfig} nextBackground={nextBackground} />
           ))
         }
       </div>
